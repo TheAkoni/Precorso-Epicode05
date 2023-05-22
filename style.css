@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+#main {
+    width: 100%;
+}
+
+.sidebar-icon {
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+    cursor: pointer;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 2em;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon {
+    height: 15vh;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.topbar-right {
+    display: flex;
+}
+
+.topbar-right ion-icon {
+    font-size: 2em;
+    padding: 0 0.2em;
+}
+
+.topbar-center {
+    display: flex;
+    align-items: center;
+    
+}
+
+.topbar-center input {
+    padding: 0 0.7em;
+    font-size: 1.6em;
+}
+
+.topbar-center button {
+    font-size: 1.4em;
+}
+
+.topbar-center-mic {
+    margin-left: 0.2em;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+#topbar img {
+    width: 30vh;
+}
+
+.thumb {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px 5px 0px 30px;
+}
+
+.thumb-info {
+    display: flex;
+}
+
+.thumb-info img {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#content {
+    display: flex;
+    flex-flow: row wrap;
+}
